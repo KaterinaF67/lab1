@@ -37,18 +37,13 @@ sum(j) x[i,j] <= stock[i]               для каждого типа заго�
 x[i,j] >= 0
 ```
 
-Дробные `x[i,j]` — осознанное учебное упрощение: это усреднение по серии однотипных плановых периодов. Для единичного реального раскроя нужна целочисленная модель с паттернами.
-
 ## Установка
 
 Рекомендуется Python 3.12+.
 
 ```bash
 python -m venv .venv
-# Windows:
 .venv\Scripts\activate
-# Linux/macOS:
-# source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
@@ -71,13 +66,11 @@ src/verify.py           независимая NumPy-проверка
 src/benchmark.py        дополнительное задание
 src/plots.py            графики
 results/                решения, проверки, сценарии, логи HiGHS, графики
-report.tex              исходник отчёта LaTeX
-report.pdf              оформленный отчёт для сдачи
 requirements.txt        фиксированные версии
 ```
 
 ## Основной результат текущего запуска
 
-Числа приведены в `report.pdf` и `results/run_info.json`. Для проверки после запуска сравнивайте `results/base_solution.csv` и `results/verification_base.json`.
+Числа приведены в отчете и `results/run_info.json`. Для проверки после запуска сравнивайте `results/base_solution.csv` и `results/verification_base.json`.
 
 Полный диагностический вывод HiGHS для базового сценария сохраняется в `results/solver_base_full.log`; краткие сводки трёх сценариев — в `solver_base.log`, `solver_deficit.log`, `solver_stress.log`. Если независимая проверка любого сценария не проходит, `main.py` завершает работу с ошибкой.
