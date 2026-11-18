@@ -1,0 +1,12 @@
+constraint,kind,active,slack,raw_marginal_dz_db,economic_shadow_price,interpretation
+demand_O1,demand,True,0.000000000,-0.072500000,0.072500000,increase in minimum waste per +1 demanded piece
+demand_O2,demand,True,0.000000000,-0.030000000,0.030000000,increase in minimum waste per +1 demanded piece
+demand_O3,demand,True,0.000000000,-0.032857143,0.032857143,increase in minimum waste per +1 demanded piece
+demand_O4,demand,True,0.000000000,-0.040000000,0.040000000,increase in minimum waste per +1 demanded piece
+demand_O5,demand,True,0.000000000,-0.435000000,0.435000000,increase in minimum waste per +1 demanded piece
+demand_O6,demand,True,0.000000000,-0.305000000,0.305000000,increase in minimum waste per +1 demanded piece
+stock_S1,stock,True,0.000000000,-0.175000000,0.175000000,decrease in minimum waste per +1 available blank
+stock_S2,stock,False,13.666666667,-0.000000000,0.000000000,decrease in minimum waste per +1 available blank
+stock_S3,stock,True,0.000000000,-0.810000000,0.810000000,decrease in minimum waste per +1 available blank
+stock_S4,stock,False,6.625000000,-0.000000000,0.000000000,decrease in minimum waste per +1 available blank
+stock_S5,stock,False,5.857142857,-0.000000000,0.000000000,decrease in minimum waste per +1 available blank

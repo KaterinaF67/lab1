@@ -1,0 +1,4 @@
+scenario,status,objective_waste_m,delta_vs_base_m,change,iterations
+base,optimal,42.880357143,0.000000000,исходные данные,8
+deficit,optimal,45.796357143,2.916000000,запас S3 -20%,9
+stress,optimal,50.942857143,8.062500000,"запасы S3, S1 -30%",11

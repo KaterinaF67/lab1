@@ -1,0 +1,9 @@
+{
+  "tolerance": 1e-07,
+  "nonnegative_violation": 0.0,
+  "max_stock_violation": 0.0,
+  "max_demand_violation": 2.0000072709080996e-09,
+  "objective_recomputed": 45.79635714299,
+  "objective_difference": 1.3285728073242353e-10,
+  "feasible": true
+}

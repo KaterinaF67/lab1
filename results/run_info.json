@@ -1,0 +1,23 @@
+{
+  "python": "3.13.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "highs": "1.8.0",
+  "variant": 19,
+  "seed": 10125,
+  "base_objective_waste_m": 42.880357142857136,
+  "independent_verification": {
+    "tolerance": 1e-07,
+    "nonnegative_violation": 0.0,
+    "max_stock_violation": 0.0,
+    "max_demand_violation": 2.0000072709080996e-09,
+    "objective_recomputed": 42.88035714267,
+    "objective_difference": 1.8713564031713759e-10,
+    "feasible": true
+  },
+  "deficit_resource": "S3",
+  "shadow_prediction_delta_m": 2.9159999999999995,
+  "actual_deficit_delta_m": 2.916000000000004
+}
